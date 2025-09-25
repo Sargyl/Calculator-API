@@ -1,0 +1,7 @@
+# Сложение
+curl -X POST http://localhost:5000/calculate \
+  -H "Content-Type: application/json" \
+  -d '{"a": 10, "b": 5, "op": "+"}'
+
+# Получить историю
+curl -X GET http://localhost:5000/log
